@@ -55,7 +55,6 @@ export default function App() {
     }
     setToDos(newToDos)
     await saveToDos(newToDos)
-
     setText('')
   }
   const deleteToDo = (key) => {
